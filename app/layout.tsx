@@ -5,8 +5,14 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'EdCraft | Global EdTech. Brazilian Excellence.',
-  description: 'Premium EdTech development powered by world-class Brazilian talent with competitive advantages.',
+  title: 'EdCraft | Where EdTech Meets Excellence',
+  description: 'Elite EdTech development powered by world-class Brazilian talent. We don\'t just build EdTech - we craft digital experiences that transform education.',
+  keywords: 'EdTech development, educational technology, Brazilian developers, AI detection, exam proctoring, LMS hosting',
+  openGraph: {
+    title: 'EdCraft | Where EdTech Meets Excellence',
+    description: 'Elite EdTech development powered by world-class Brazilian talent.',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
